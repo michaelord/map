@@ -1,17 +1,22 @@
 {
-  "name": "map",
-  "private": true,
-  "description": "...",
-  "version": "0.1.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/michaelord/map.git"
-  },
-  "devDependencies": {},
-  "author": "michaelord",
-  "keywords": [],
-  "dependencies": {
-    "components/libs": "http://github.com/michaelord/libs.git"
-  }
+	"name": "map",
+	"private": true,
+	"description": "...",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/michaelord/map.git"
+	},
+	"devDependencies": {},
+	"author": "michaelord",
+	"keywords": [],
+	"dependencies": {
+		"components/map": "http://github.com/michaelord/map.git",
+		"components/hooks": "http://github.com/michaelord/hooks.git",
+		"components/libs": "http://github.com/michaelord/libs.git",
+		"components/types": "http://github.com/michaelord/types.git",
+		"components/events": "http://github.com/michaelord/events.git",
+		"leaflet": "^1.5.1"
+	}
 }

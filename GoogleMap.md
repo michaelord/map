@@ -1,5 +1,5 @@
 ---
-title: Map (Open Maps)
+title: Google Map
 tags : ["all", "map", "wip"]
 category: "Undefined"
 logo: "./thumbnail.jpg"
@@ -8,8 +8,8 @@ published : true
 ---
 import {Playground, PlaygroudCode} from 'components/styleguide';
 import {Map,Earth, GoogleMap} from 'components/map';
-import {MapData} from './demo';
+import {GoogleMapData} from './demo';
 
 [TODO]
 
-<Map {...MapData} />
+<GoogleMap {...GoogleMapData} />
